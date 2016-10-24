@@ -2,6 +2,6 @@ require "remodal/rails/version"
 
 module Remodal
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine; end
   end
 end

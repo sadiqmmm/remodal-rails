@@ -24,17 +24,18 @@ Or install it yourself as:
 
     $ gem install remodal-rails
 
-Now you need to edit your `app/assets/javascripts/application.js` file and add the following line:
+Now you need to edit your `app/assets/stylesheets/application.css` file and add the following lines:
 
 ``` css
 *= require remodal-default-theme
 *= require remodal
 ```
 
+Now you need to edit your `app/assets/javascripts/application.js` file and add the following line:
+
 ``` javascript
 //= require remodal
-```
- 
+``` 
 
 ## Full documentation 
 
@@ -48,7 +49,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/sadiqmmm/clipboard-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sadiqmmm/remodal-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License

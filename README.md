@@ -36,6 +36,25 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 ``` javascript
 //= require remodal
 ``` 
+## Usage
+
+Add this sample code to your template file like index.html.erb
+
+``` html
+<div class="remodal" data-remodal-id="modal">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h1>Remodal</h1>
+  <p>
+    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+  </p>
+  <br>
+  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+</div>
+
+<h1>Below is the example</h1>
+<a data-remodal-target="modal">Click me to call the modal with data-remodal-id="modal"</a>
+```
 
 ## Full documentation 
 
